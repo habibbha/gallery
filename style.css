@@ -1,0 +1,131 @@
+body {
+    background-color: black; 
+    
+    }
+    
+
+
+nav{
+    width: 100%;
+    overflow: auto;
+    align-items: stretch;
+    position: sticky;
+    display: inline;
+    flex-direction: row-reverse ;
+    /* margin-left: 400px; */
+    margin-top: 45px;
+    
+    
+
+}
+ul {
+    position: relative;
+    padding: 0%;
+     /* margin: 0 0 0 250px ; */
+    list-style: none;
+    left: 250px;
+    top: 20px;
+    width: 80%;
+
+  
+}
+li {
+   
+    float: inline-start;
+  }
+
+  li a {
+    width: 130px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-style:oblique;
+    letter-spacing: 2 px;
+    word-spacing: 5px;
+    text-shadow: 1px 1px grey;
+    margin-left: 10px;
+    position:sticky;
+    
+ 
+    
+
+  }
+  li a:hover {
+    text-transform: uppercase;
+    
+    
+
+  }
+.logo  {
+display: inline;
+  position: sticky;
+  margin-top: 200px;
+  margin-left: 10px;
+  left: 20px;
+  bottom: 50px;
+  
+
+}
+/* nav {
+  
+  align-items: center;
+  padding-right: 100px;
+
+} */
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 20px;
+    background-color:black;
+    padding: 5%;
+    margin: 50px 50px 50px 50px;
+    width: 80%;
+    height: 90%;
+   
+    
+  }
+  .grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid rgba(234, 7, 7, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-item:nth-child(6) {
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+  }
+  .grid-item:nth-child(2) {
+    grid-row-start:1 ;
+    grid-row-end:3 ;
+
+  }
+  .grid-item:nth-child(7) {
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+  }
+  .grid-item:nth-child(9) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+  }
+  .grid-item:nth-child(11) {
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+  }
+  .grid-container img {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+
+
